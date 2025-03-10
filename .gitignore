@@ -3,7 +3,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+/application.properties
+/application.yml
 ### STS ###
 .apt_generated
 .classpath
@@ -12,7 +13,8 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
+*.properties
+*.yml
 ### IntelliJ IDEA ###
 .idea
 *.iws
